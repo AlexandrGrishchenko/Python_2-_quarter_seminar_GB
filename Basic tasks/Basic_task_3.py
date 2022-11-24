@@ -11,4 +11,3 @@ second_temp = temp + temp
 third_temp = temp + temp + temp
 result = n + int(second_temp) + int(third_temp)
 print(f"{temp} + {temp + temp} + {temp + temp + temp} = {result}")
-

@@ -24,4 +24,3 @@ while distance <= result:
     day += 1
 print(f"на {day}-й день спортсмен достиг результата — не менее {result} км")
 # print(f"на {day}-й день спортсмен пробежал {round(distance, 2)} км, и достиг результата в {result} км ")
-

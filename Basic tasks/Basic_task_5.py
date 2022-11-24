@@ -12,9 +12,11 @@ people = int(input("Введите количество работников: ")
 if profit > expenses:
     revenue = profit - expenses
     print(f"Выручка больше издержек и составила: {revenue}")
-    rent = revenue/profit
+    rent = revenue / profit
     print(f"Рентабильность фирмы составила: {rent}")
-    revenue_for_person = revenue/people
+    revenue_for_person = revenue / people
     print(f"Прибыль фирмы в расчете на одного сотрудника: {revenue_for_person}")
+elif profit == expenses:
+    print("Прибыль и издержки равны")
 else:
     print("Фирма работает в убыток")
