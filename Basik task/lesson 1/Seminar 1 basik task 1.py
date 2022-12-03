@@ -9,4 +9,4 @@ user_number = int(input('Какое сегодня число? - '))
 user_month = input('Какой сейчас месяц? - ')
 user_year = input(f'Сколько вам лет {user_name}? - ')
 
-print(f"Сегодня {user_number}-ое {user_month} 2022 года. А еще вы {2022 - user_year} года рождения." )
+print(f"Сегодня {user_number}-ое {user_month} 2022 года. А еще вы {2022 - user_year} года рождения.")
