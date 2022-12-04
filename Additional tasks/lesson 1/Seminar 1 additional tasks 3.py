@@ -12,6 +12,10 @@ coordinates_x = int(input("Введите координаты оси Х:\t"))
 coordinates_y = int(input("Введите координаты оси Y:\t"))
 if coordinates_x == 0 or coordinates_y == 0:
     print("Точка имеет нулевую коодринату")
+    if coordinates_x ==0:
+        print("Точка находится на оси Х")
+    else:
+        print("Точка находится на оси Y")
 elif coordinates_x > 0 and coordinates_y > 0:
     print(f"Точка {coordinates_x, coordinates_y} имеет 1 четверть плоскости")
 elif coordinates_x < 0 and coordinates_y > 0:
