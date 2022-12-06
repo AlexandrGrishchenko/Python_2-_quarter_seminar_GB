@@ -11,10 +11,12 @@
 
 
 def my_abs(y):
+    # Функция проверки значения и перевода в положительное число
     return y if y >= 0 else y * -1
 
 
 def raising_to_power(x, y):
+    # Функция возведение числа в в степень
     result = x
     for i in range(my_abs(y) - 1):
         result *= x
