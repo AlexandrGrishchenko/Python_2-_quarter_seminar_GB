@@ -20,3 +20,6 @@ def calс_salary(hours_work, money_work_hour, bonus_work):
 
 
 print(f"{calс_salary(hours, money_in_hour, bonus)}")
+
+# Запуск скрипта через терминал
+calс_salary(int(hours), int(money_in_hour), int(bonus))
