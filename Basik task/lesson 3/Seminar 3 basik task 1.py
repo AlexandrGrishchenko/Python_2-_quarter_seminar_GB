@@ -17,7 +17,7 @@ def dividing(a, b):
 try:
     n1 = float(input("a = "))
     n2 = float(input("b = "))
-    print(f"a / b = {divide(n1, n2)}")
+    print(f"a / b = {dividing(n1, n2)}")
 except ValueError:
 # Обработка ситуации ввода текстовых данных
     print("Incorrect input value")
