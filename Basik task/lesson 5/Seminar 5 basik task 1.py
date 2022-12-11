@@ -8,10 +8,11 @@
 """Запись данных в файл"""
 
 # Запись в файл
-out_f = open("test_task_1.txt", "w", encoding='utf-8')
+out_f = open("test_task_1.txt", "a", encoding='utf-8')
 # Завершение цикла ввода данных пустой строкой
 while True:
     text = out_f.write(input("Enter text: "))
     if not text:
         break
 out_f.close()
+
