@@ -6,8 +6,11 @@
 """
 
 with open('poem.txt', 'r', encoding='UTF-8') as f_obj:
+    # Подсчет строк
     lines = f_obj.readlines()
     print(f"Всего {len(lines)} строк")
+    # Подсчет слов в каждой строке
     for key, value in enumerate(lines):
         words = value.split(' ')
         print(f"В {key + 1} строке {len(words)} слов")
+
