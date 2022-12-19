@@ -4,7 +4,7 @@
 1) Из ваших заданий в уроках 1-5 найти 2-3 скрипта, сделать замеры времени, оптимизировать,
 вновь выполнить замеры и ОПИСАТЬ СЛОВАМИ, что вы сделали и чего удалось добиться
 """
-
+from cProfile import run
 from functools import reduce
 from timeit import timeit
 
@@ -29,3 +29,10 @@ print(f"Встроенная функция reduse и max. {reduse_max}")
 # Обработка через встроенную функцию составило 0.02
 # Данный метод является более эффективным более чем в 13 раэ
 print(timeit("reduse_max", globals=globals()))
+def main():
+    list1 = [1, 4, 5, 2, 6]
+    my_cycle = large(list1)
+    reduse_max = reduce(max, list1)
+
+# Импортирование модуля run
+run('main()')
